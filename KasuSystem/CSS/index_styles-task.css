@@ -1,0 +1,271 @@
+@font-face {
+	font-family: ecb;
+	src: url("fonts/EuclidCircularA-Bold.ttf");
+}
+
+@font-face {
+	font-family: ecm;
+	src: url("fonts/EuclidCircularA-Medium.ttf");
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	background-color: #fff !important;
+}
+
+.table .thead-dark {
+	color: #fff;
+	background-color: #15915d;
+	border-color: #15915d;
+}
+
+.btn-outline-secondary {
+	--bs-btn-color: #15915d;
+}
+h1 {
+	font-family: ecb !important;
+	color: #040303 !important;
+}
+
+h6 {
+	font-family: ecb;
+}
+
+.name {
+	color: white !important;
+	font-size: 30px;
+	font-family: ecb;
+}
+
+.navbar {
+	background-color: #637373;
+	padding: 0.5%;
+}
+
+.nav-item {
+	padding: 0.2%;
+	/* width: 13% !important; */
+}
+
+/* .active-item {
+	width: 50% !important;
+} */
+
+/* .nav {
+	width: 100% !important;
+} */
+#first .nav-link {
+	color: black !important;
+	/* border-bottom: 2px solid #cfdde2; */
+	/* width: 150% !important; */
+}
+
+.active2 {
+	border-bottom: 2px solid black;
+}
+
+.nav-link:hover {
+	border-bottom: 2px solid #515151;
+}
+
+.navbar-nav > li {
+	margin-left: 30px;
+	margin-right: 30px;
+}
+
+#first {
+	font-family: ecm;
+	padding: 3%;
+	width: 90%;
+	margin: 3% auto 3% auto;
+	background-color: #eceef9;
+	border-radius: 20px;
+	/* font-family: ecm;
+	background-color: #9eb0c8;
+	/* display: flex; */
+	/* justify-content: center;
+	align-items: center; */
+	min-height: 90vh;
+}
+
+#tasks {
+	border-radius: 20px;
+	margin: 3% auto;
+	padding: 0 2% 2% 2%;
+	width: 100%;
+}
+/* Inline form */
+.inline .new-l-form {
+	vertical-align: middle;
+	margin: 5px 10px 5px 30px;
+	padding: 15px;
+	width: 46%;
+	background-color: #fff;
+	/* border: 1px solid #ddd; */
+}
+
+.inline {
+	display: flex;
+	flex-flow: row wrap;
+	align-items: center;
+}
+
+/*btn*/
+.done-btn {
+	background-color: #60bb58 !important;
+	border-style: none !important;
+	padding: 6px;
+	border-top-left-radius: 20px !important;
+	border-bottom-left-radius: 20px !important;
+	width: 45px;
+	height: 35px;
+}
+
+.delete-btn {
+	background-color: #bb5858 !important;
+	border-style: none !important;
+	padding: 6px;
+	border-top-right-radius: 20px !important;
+	border-bottom-right-radius: 20px !important;
+	width: 45px;
+	height: 35px;
+}
+
+.done-btn:hover,
+.done-btn:focus {
+	background-color: #3f875b !important;
+}
+
+.delete-btn:hover,
+.delete-btn:focus {
+	background-color: #873f3f !important;
+}
+
+.img-size {
+	width: 20px;
+	height: 20px;
+}
+
+.text-center {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.page-item {
+	color: #0000;
+}
+
+.navlabel {
+	width: 100% !important;
+}
+
+.pagination {
+	float: right !important;
+}
+
+.widmenu {
+	padding: 3% !important;
+}
+
+.card {
+	margin-top: 3% !important;
+	padding: 3% !important;
+}
+
+.card-header {
+	background-color: #ffff !important;
+}
+
+.sidebar-icons {
+	width: 10%;
+	height: 10%;
+	margin-right: 5% !important;
+}
+
+.kasu-side {
+	background-color: #323233;
+	padding: 0 !important;
+	border-bottom-style: none !important;
+}
+
+.kasu-side a {
+	border-bottom-style: none !important;
+	padding-left: 15px !important;
+	border-bottom-left-radius: 50px;
+	border-top-left-radius: 50px;
+	margin-bottom: 5% !important;
+}
+
+.side-items {
+	padding-left: 12px !important;
+	font-family: ecm !important;
+}
+
+.side-items .nav-link {
+	padding-left: 12px !important;
+	font-family: ecm !important;
+	color: #fff !important;
+}
+
+.kasu-side a:hover {
+	background-color: #514066 !important;
+	border-bottom-left-radius: 50px;
+	border-top-left-radius: 50px;
+}
+.kasu-top {
+	background-color: #fdfd96;
+	color: #323233 !important;
+	font-family: ecb;
+}
+
+.active {
+	background-color: #8d6fb2 !important;
+	border-bottom-left-radius: 50px;
+	border-top-left-radius: 50px;
+	border-bottom-style: none !important;
+}
+
+.kasu-logo {
+	width: 50%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10% !important;
+	margin-bottom: 8% !important;
+}
+
+.account {
+	width: 15% !important;
+}
+
+.option-navicon {
+	width: 100%;
+}
+
+.option-btn {
+	background-color: #fdfd96 !important;
+	width: 50px !important;
+	height: 100%;
+	padding: 0 !important;
+}
+
+.option-btn2 {
+	background-color: #fdfd96 !important;
+	width: 50px !important;
+	height: 100%;
+}
+
+.dropdown-menu[data-bs-popper] {
+	top: 100%;
+	right: 0 !important;
+	left: -110 !important;
+	margin-top: var(--bs-dropdown-spacer);
+}
+
+.kasu-top .nav-link {
+	color: #040303 !important;
+	border-bottom-style: none !important;
+}
